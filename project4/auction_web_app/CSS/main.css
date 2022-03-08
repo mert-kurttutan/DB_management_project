@@ -1,0 +1,198 @@
+.addbid_form {
+    max-width:400px; 
+    width:100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redirect_frame {
+  background-color: rgb(141, 195, 245);
+  border: 1px solid #04157b;
+  color:white;
+  border-radius: 4px;
+  padding: 4px 32px 4px 32px;
+  font-size: 44px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+
+}
+
+.error_frame {
+    background-color: rgb(235, 110, 110);
+    border: 1px solid #ba3e0d;
+    color:white;
+    border-radius: 4px;
+    padding: 4px 32px 4px 32px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+}
+
+.success_frame {
+    background-color: rgb(125, 232, 166);
+    border: 1px solid #16a085;
+    color:white;
+    border-radius: 4px;
+    padding: 4px 32px 4px 32px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+
+.header_styled {
+    background-color: #51b8f0;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+.styled-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.styled-table thead tr {
+    background-color: #c4ecff;
+    color: #1f4980;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+
+
+.items_table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(155, 215, 243);     
+    min-height: 100px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+.items_table h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
+.bids_table {
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+.bids_table h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  }
+
+.categories_table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(155, 215, 243);     
+  min-height: 100px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.categories_table h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .status_table {
+    background-color: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+.status_table h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  }
+
+.footer {
+    background-color: #777;
+    height: 40px;
+  }
+
+.footer p {
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+
+
+
+.welcome {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(155, 215, 243);     
+  min-height: 100px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.welceom h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }

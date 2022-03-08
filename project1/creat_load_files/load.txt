@@ -1,0 +1,12 @@
+.separator |
+.import ../dat_files/usersUnique.dat auction_users
+
+.import ../dat_files/itemsUnique.dat items
+UPDATE items
+SET buy_price = null 
+WHERE buy_price = "Null";
+
+.import ../dat_files/bidsUnique.dat bids
+
+.import ../dat_files/categoriesUnique.dat category_item_rel
+

@@ -1,0 +1,14 @@
+DELIMITER @@
+
+DROP TRIGGER IF EXISTS trigger1 @@
+
+
+CREATE TRIGGER trigger1
+	BEFORE UPDATE ON CurrentTime
+	FOR EACH ROW 
+	BEGIN 
+		IF New.Time_t < OLD.Time_t THEN
+			SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = "Trigger 1 Failed";
+		END IF;
+	END @@
+DELIMITER ;
