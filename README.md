@@ -1,4 +1,4 @@
-# Machine Learning Project - Future Sales PRedicition
+# Database project - Auction database
 
 This repositorty contains an example of e-commerce web applications for auction database.
 
