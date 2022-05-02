@@ -1,12 +1,12 @@
 # Database project - Auction database
 
-This repositorty contains an example of e-commerce web applications for auction database.
+This repository contains an example of e-commerce web applications for auction database.
 
 ## Description
 
 Part1:
 - Processing JSON files(received from ebay) and transforming them into tabular data (csv files)
-- Designing database in MYSQL database
+- Designing database in MySQL database
 - Loading ebay data into MySQL database using sql scripts and test scripts
 
 Part2: 
